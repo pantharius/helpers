@@ -1,0 +1,21 @@
+{
+    "name": "pantharius/helpers",
+    "type": "lib",
+    "description": "",
+    "homepage": "https://github.com/pantharius/helpers",
+    "authors": [{
+        "name": "JDO-Univers"
+    }],
+    "require": {
+        "paypal/rest-api-sdk-php": "dev-master",
+        "google/apiclient": "2.0.*",
+        "jublonet/codebird-php": "dev-master",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "JDOUnivers\\Helpers\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
