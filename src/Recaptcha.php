@@ -10,7 +10,7 @@ class Recaptcha
 
     public static function get_html()
     {
-        return '<div class="g-recaptcha" style="align-items: center;" data-sitekey="'. getenv("RECAPTCHA_PUBLIC_KEY") .'"></div>';
+        return '<div class="g-recaptcha" data-sitekey="'. getenv("RECAPTCHA_PUBLIC_KEY") .'" data-callback="onSubmit" data-size="invisible"></div>';
     }
 
     public static function get_response($captcha)
